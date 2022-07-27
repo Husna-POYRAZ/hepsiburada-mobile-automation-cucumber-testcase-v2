@@ -1,9 +1,8 @@
 package FavoriteProduct.tests;
 
-import io.appium.java_client.MobileElement;
+
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import io.cucumber.java.en.And;
