@@ -192,6 +192,7 @@ public class FavoriteProduct {
         wait.until(ExpectedConditions.visibilityOfElementLocated(backButton)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(userMenuButton)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(favouritesTab)).click();
+        Thread.sleep(5000);
         captureScreenshots();
         Thread.sleep(5000);
     }
